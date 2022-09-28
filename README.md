@@ -10,23 +10,29 @@ You can create a docker with an image of this repo here: &nbsp; [![Binder](https
 
 ---
 
-# Summary (kind of table of content & cheat sheet)
+# Summary _(kind of table of content & cheat sheet)_
 ## Chapter 1. Welcome
-**Libraries**:
-* NumPy
-* SciPy
+
+:books: **Libraries** and **modules**:
+* NumPy [(docs)](https://numpy.org/doc/stable/reference/)
+* SciPy [(docs)](https://docs.scipy.org/doc/scipy/reference/)
 * matplotlib
 
 ```python
 import numpy as np
 from numpy import random
+from scipy.special import perm
+
 import matplotlib.pyplot as plt
 
-from ipywidgets import interact, interactive, fixed, interact_manual
 import ipywidgets as widgets
+from ipywidgets import interact, interactive, fixed, interact_manual
 ```
 
+**Functions and methods in this section**:
+`np.array([...])`, `np.vstack([...])`, `np.hstack([...])`,
+`np.diag([...])`, `scipy.linalg.inv()`, `A@B`, `plt.plot()`,
+`plt.figure()`, `plt.subplots()`, `h.pop(0).remove()`
 
-
-## Chapter 2. 
+## Chapter 2. Probability and Satatistics Bases for Robotics
 ### 2.1 Probability and Statistics Bases for Robotics
