@@ -49,7 +49,13 @@ from ipywidgets import interact, interactive, fixed, interact_manual
 | `array`         | `numpy`             | 1.2
 | `diag`          | `numpy`             | 1.2
 | `figure`        | `matplotlib.pyplot` | 1.2
+| `hist`          | `matplotlib.pyplot` | 1.2             
 | `hstack`        | `numpy`             | 1.2
 | `inv`           | `scipy.linalg`      | 1.2             | Compute the inverse of a matrix |
 | `perm`          | `scipy.special`     | 1.2
+| `plot`          | `matplotlib.pyplot` | 1.2
 | `vstack`        | `numpy`             | 1.2
+
+| Others          | From library/module | In chapter/s... | What does it do? |
+|-----------------|---------------------|-----------------|------------------|
+| `A@B`           | `numpy.ndarray`     | 1.2             | Matrix multiplication |      
