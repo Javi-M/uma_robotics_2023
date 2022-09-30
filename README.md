@@ -16,7 +16,7 @@ You can create a docker with an image of this repo here: &nbsp; [![Binder](https
 :books: **Libraries** and **modules**:
 * NumPy [(docs)](https://numpy.org/doc/stable/reference/)
 * SciPy [(docs)](https://docs.scipy.org/doc/scipy/reference/)
-* matplotlib
+* matplotlib [(docs)](https://matplotlib.org/3.5.3/api/_as_gen/matplotlib.pyplot.html)
 
 ```python
 import numpy as np
