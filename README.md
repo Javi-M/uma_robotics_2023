@@ -17,6 +17,8 @@ You can create a docker with an image of this repo here: &nbsp; [![Binder](https
 * NumPy [(docs)](https://numpy.org/doc/stable/reference/)
 * SciPy [(docs)](https://docs.scipy.org/doc/scipy/reference/)
 * matplotlib [(docs)](https://matplotlib.org/3.5.3/api/_as_gen/matplotlib.pyplot.html)
+    * matplotlib.pyplot
+     
 
 ```python
 import numpy as np
@@ -36,3 +38,18 @@ from ipywidgets import interact, interactive, fixed, interact_manual
 
 ## Chapter 2. Probability and Satatistics Bases for Robotics
 ### 2.1 Probability and Statistics Bases for Robotics
+#### 2.1.1 The gaussian distribution
+
+**Functions and methods in this section**:
+`np.linspace()`, np.pi
+
+# Glossary
+| Function/method | From library/module | In chapter/s... | What does it do? |
+|-----------------|---------------------|-----------------|------------------|
+| `array`         | `numpy`             | 1.2
+| `diag`          | `numpy`             | 1.2
+| `figure`        | `matplotlib.pyplot` | 1.2
+| `hstack`        | `numpy`             | 1.2
+| `inv`           | `scipy.linalg`      | 1.2             | Compute the inverse of a matrix |
+| `perm`          | `scipy.special`     | 1.2
+| `vstack`        | `numpy`             | 1.2
