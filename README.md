@@ -47,15 +47,22 @@ from ipywidgets import interact, interactive, fixed, interact_manual
 | Function/method | From library/module | In chapter/s... | What does it do? |
 |-----------------|---------------------|-----------------|------------------|
 | `array`         | `numpy`             | 1.2
+| `default_rng`   | `numpy.random`      |
 | `diag`          | `numpy`             | 1.2
+| `exp`           | `numpy`             | 2.1.1           | `exp(n)` = $e^n$
 | `figure`        | `matplotlib.pyplot` | 1.2
 | `hist`          | `matplotlib.pyplot` | 1.2             
 | `hstack`        | `numpy`             | 1.2
-| `inv`           | `scipy.linalg`      | 1.2             | Compute the inverse of a matrix |
+| `inv`           | `scipy.linalg`      | 1.2             | inv(A) = $A^{-1}$ Inverse of a matrix |
 | `perm`          | `scipy.special`     | 1.2
 | `plot`          | `matplotlib.pyplot` | 1.2
+| `sqrt`          | `numpy`             | 2.1.1           | `sqrt(n)` = $\sqrt{n}$
+| `subplots`      | `matplotlib.pyplo`  | 1.2
 | `vstack`        | `numpy`             | 1.2
+| `linspace`      | `numpy`             | 2.1.1
 
+Operations, constants, etc:
 | Others          | From library/module | In chapter/s... | What does it do? |
 |-----------------|---------------------|-----------------|------------------|
-| `A@B`           | `numpy.ndarray`     | 1.2             | Matrix multiplication |      
+| `A@B`           | `numpy.ndarray`     | 1.2             | Matrix multiplication |
+| `pi`            | `numpy`             | 2.1.1           | Constant $\pi$
