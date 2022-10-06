@@ -46,6 +46,7 @@ from ipywidgets import interact, interactive, fixed, interact_manual
 # Glossary
 | Function/method | From library/module | In chapter/s... | What does it do? |
 |-----------------|---------------------|-----------------|------------------|
+| `arange`        | `numpy`             | 2.1.2           
 | `array`         | `numpy`             | 1.2
 | `default_rng`   | `numpy.random`      |
 | `diag`          | `numpy`             | 1.2
@@ -54,14 +55,16 @@ from ipywidgets import interact, interactive, fixed, interact_manual
 | `hist`          | `matplotlib.pyplot` | 1.2             
 | `hstack`        | `numpy`             | 1.2
 | `inv`           | `scipy.linalg`      | 1.2             | inv(A) = $A^{-1}$ Inverse of a matrix |
+| `norm`          | `scipy.stats`       | 2.1.2
 | `perm`          | `scipy.special`     | 1.2
-| `plot`          | `matplotlib.pyplot` | 1.2
+| `plot`          | `matplotlib.pyplot` | 1.2, 2.1.2
 | `rand`          | `numpy.random`      | 2.1.2           | ndarray of random numbers 
 | `sqrt`          | `numpy`             | 2.1.1           | `sqrt(n)` = $\sqrt{n}$
 | `subplots`      | `matplotlib.pyplo`  | 1.2
 | `vstack`        | `numpy`             | 1.2
 | `linspace`      | `numpy`             | 2.1.1
 | `zeros`         | `numpy`             | 2.1.2           | Returns ndarray of zeros 
+
 Operations, constants, etc:
 | Others          | From library/module | In chapter/s... | What does it do? |
 |-----------------|---------------------|-----------------|------------------|
