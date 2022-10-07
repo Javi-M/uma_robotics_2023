@@ -50,20 +50,23 @@ from ipywidgets import interact, interactive, fixed, interact_manual
 | `array`         | `numpy`             | 1.2
 | `default_rng`   | `numpy.random`      |
 | `diag`          | `numpy`             | 1.2
+| `flatten`       | `numpy.ndarray`     | 2.1.3           | Return a copy of the array collapsed into one dimension
 | `exp`           | `numpy`             | 2.1.1           | `exp(n)` = $e^n$
 | `figure`        | `matplotlib.pyplot` | 1.2
 | `hist`          | `matplotlib.pyplot` | 1.2             
 | `hstack`        | `numpy`             | 1.2
 | `inv`           | `scipy.linalg`      | 1.2             | inv(A) = $A^{-1}$ Inverse of a matrix |
+| `multivariate_normal` | `scipy.stats` | 2.1.3           | A multivariate normal random variable. [Docs](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.multivariate_normal.html#scipy.stats.multivariate_normal)
 | `norm`          | `scipy.stats`       | 2.1.2
 | `perm`          | `scipy.special`     | 1.2
 | `plot`          | `matplotlib.pyplot` | 1.2, 2.1.2
 | `rand`          | `numpy.random`      | 2.1.2           | ndarray of random numbers 
+| `scatter`       | `matplotlib.pyplot` | 2.1.3           | A scatter plot of _y_ vs. _x_ with varying marker size and/or color. [Docs](https://matplotlib.org/3.5.1/api/_as_gen/matplotlib.pyplot.scatter.html)
 | `sqrt`          | `numpy`             | 2.1.1           | `sqrt(n)` = $\sqrt{n}$
 | `subplots`      | `matplotlib.pyplo`  | 1.2
 | `vstack`        | `numpy`             | 1.2
 | `linspace`      | `numpy`             | 2.1.1
-| `zeros`         | `numpy`             | 2.1.2           | Returns ndarray of zeros 
+| `zeros`         | `numpy`             | 2.1.2           | Return ndarray of zeros 
 
 Operations, constants, etc:
 | Others          | From library/module | In chapter/s... | What does it do? |
