@@ -71,5 +71,5 @@ from ipywidgets import interact, interactive, fixed, interact_manual
 Operations, constants, etc:
 | Others          | From library/module | In chapter/s... | What does it do? |
 |-----------------|---------------------|-----------------|------------------|
-| `A@B`           | `numpy.ndarray`     | 1.2             | Matrix multiplication |
+| `A@B`           | `numpy.ndarray`     | 1.2, 2.1.3      | Matrix multiplication |
 | `pi`            | `numpy`             | 2.1.1           | Constant $\pi$
