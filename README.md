@@ -9,7 +9,7 @@ Working repository for the Robotics subject at the University of Málaga (2022-2
 You can create a docker with an image of this repo here: &nbsp; [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Javi-M/uma_robotics_2023/HEAD)
 
 ---
-
+<!--
 # Summary _(kind of table of content & cheat sheet)_
 ## Chapter 1. Welcome
 
@@ -42,6 +42,7 @@ from ipywidgets import interact, interactive, fixed, interact_manual
 
 **Functions and methods in this section**:
 `np.linspace()`, np.pi
+-->
 
 # Glossary
 | Function/method | From library/module | In chapter/s... | What does it do? |
