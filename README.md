@@ -57,8 +57,7 @@ from ipywidgets import interact, interactive, fixed, interact_manual
 | `hist`          | `matplotlib.pyplot` | 1.2             
 | `hstack`        | `numpy`             | 1.2
 | `inv`           | `scipy.linalg`      | 1.2. 2.1.3      | inv(A) = $A^{-1}$ Inverse of a matrix |
-| `multivariate_normal` | `scipy.stats` | 2.1.3           | A multivariate normal random variable. [Docs](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.multivariate_normal.html#scipy.stats.multivariate_normal)
-| `
+| `multivariate_normal` | `scipy.stats` | 2.1.3           | A multivariate normal random variable. [Docs](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.multivariate_normal.html#scipy.stats.multivariate_normal) |
 | `norm`          | `scipy.stats`       | 2.1.2
 | `perm`          | `scipy.special`     | 1.2
 | `plot`          | `matplotlib.pyplot` | 1.2, 2.1.2
