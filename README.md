@@ -44,14 +44,18 @@ from ipywidgets import interact, interactive, fixed, interact_manual
 `np.linspace()`, np.pi
 -->
 
+_Also, note that the module `utils` is contained in the repository_
+
 # Glossary
 | Function/method | From library/module | In chapter/s... | What does it do? |
 |-----------------|---------------------|-----------------|------------------|
+| `AngleWrapList` | `utils.AngleWrap`
 | `arange`        | `numpy`             | 2.1.2           
 | `array`         | `numpy`             | 1.2
 | `default_rng`   | `numpy.random`      |
 | `diag`          | `numpy`             | 1.2
 | `flatten`       | `numpy.ndarray`     | 2.1.3           | Return a copy of the array collapsed into one dimension
+| `empty_like`    | `numpy`             |                 | Return a new array with the same shape and type as a given array
 | `exp`           | `numpy`             | 2.1.1           | `exp(n)` = $e^n$
 | `figure`        | `matplotlib.pyplot` | 1.2
 | `hist`          | `matplotlib.pyplot` | 1.2             
