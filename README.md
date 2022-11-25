@@ -66,6 +66,8 @@ _Also, note that the module `utils` is contained in the repository_
 | `perm`          | `scipy.special`     | 1.2
 | `plot`          | `matplotlib.pyplot` | 1.2, 2.1.2
 | `rand`          | `numpy.random`      | 2.1.2           | ndarray of random numbers 
+| `randint`       | `numpy.random`      |                 | Return random integers from low (inclusive) to high (exclusive). [Docs](https://numpy.org/doc/stable/reference/random/generated/numpy.random.randint.html)
+| `randn`         | `numpy.random`      |                 | Return a sample (or samples) from the “standard normal” distribution [Docs](https://numpy.org/doc/stable/reference/random/generated/numpy.random.randn.html)
 | `scatter`       | `matplotlib.pyplot` | 2.1.3           | A scatter plot of _y_ vs. _x_ with varying marker size and/or color. [Docs](https://matplotlib.org/3.5.1/api/_as_gen/matplotlib.pyplot.scatter.html)
 | `sqrt`          | `numpy`             | 2.1.1           | `sqrt(n)` = $\sqrt{n}$
 | `subplots`      | `matplotlib.pyplo`  | 1.2
