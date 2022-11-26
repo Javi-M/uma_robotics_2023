@@ -46,6 +46,8 @@ from ipywidgets import interact, interactive, fixed, interact_manual
 
 _Also, note that the module `utils` is contained in the repository_
 
+
+<!--
 # Glossary
 | Function/method | From library/module | In chapter/s... | What does it do? |
 |-----------------|---------------------|-----------------|------------------|
@@ -80,3 +82,5 @@ Operations, constants, etc:
 |-----------------|---------------------|-----------------|------------------|
 | `A@B`           | `numpy.ndarray`     | 1.2, 2.1.3      | Matrix multiplication |
 | `pi`            | `numpy`             | 2.1.1           | Constant $\pi$
+
+-->
